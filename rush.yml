@@ -1,1 +1,16 @@
+# --- INFORMASI DASAR EKSTENSI ---
+id: com.bansos567.tampads
+name: TampAds
+version: 1.0.0
+description: Ekstensi Mediasi Iklan Khusus Tamoda
+author: bansos567
 
+# --- PENGATURAN BUILD ---
+build:
+  release:
+    optimize: true
+
+# --- DAFTAR DEPENDENCY / SDK IKLAN ---
+deps:
+  # Nanti kita akan masukkan link SDK AppLovin/AdMob di sini pada tahap selanjutnya
+  # Contoh formatnya nanti: - com.applovin:applovin-sdk:11.11.3
